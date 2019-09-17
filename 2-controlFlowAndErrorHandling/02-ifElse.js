@@ -52,5 +52,5 @@ if (age >= 25){
 } else if (age >= 18){
     console.log('Yay! You can vote!');
 } else {
-    console.log("Sorry, you're too young to do anything!");
+    console.log('Sorry, you\'re too young to do anything!');
 }
