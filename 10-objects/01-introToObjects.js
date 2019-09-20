@@ -45,7 +45,7 @@ let netflix = {
 
 // console.log('All data:', netflix);
 
-// console.log(`Season Info`, netflix.season1.seasonInfo)
+console.log(`Season Info`, netflix.season1.seasonInfo)
 
 console.log('Specific episode name', netflix.season1.seasonInfo.episodeInfo[3].episodeName)
 
@@ -89,7 +89,7 @@ let spaceJam = {
 //Object.keys & Object.values
 // console.log(Object.keys(spaceJam.toonSquad));
 // console.log(Object.keys(spaceJam.toonSquad.duck)); // returns the index of each character in the string 'Daffy Duck'
-// console.log(Object.keys(spaceJam.toonSquad).toString());
+console.log(Object.keys(spaceJam.toonSquad).toString());
 
 console.log(Object.values(spaceJam.toonSquad));
 
@@ -137,4 +137,4 @@ let testObject = {
 
 console.log(testObject.noSpaces);
 console.log(testObject["Spaces Here"]);
-// Our use case for object bracket notation is if a key in our object has spaces in it
+// Our use case for object bracket notation is if a key in our object has spaces 
